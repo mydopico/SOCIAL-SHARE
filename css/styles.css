@@ -1,0 +1,97 @@
+
+body {    
+    background: linear-gradient(to bottom, rgba(143, 196, 143, 0.9), rgba(143, 196, 143, 0.2)),
+    url("grass.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+.navbar-brand {
+    margin-left: 10%;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: rgb(7, 103, 7);
+}
+
+#author {
+    font-size: 14px;
+}
+
+.container-fluid {
+    margin-top: 15vh;
+}
+
+li {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 18px;    
+    padding: 20px 20px;
+    transition: .9s ease-in-out;
+}
+
+.fa-github {  
+    color: #171515;   
+    border-radius: 24px;
+    padding: 25%;
+    box-shadow: 5px 10px 18px #343333;
+}
+
+
+.fa-twitter {    
+    color: rgba(29 161 242);  
+    border-radius: 24px;
+    padding: 25%;
+    box-shadow: 5px 10px 18px #343333;
+}
+
+.fa-facebook-messenger {
+    /* linear gradient for font awesome icon */    
+    background: -webkit-linear-gradient( rgba(255, 105, 104), rgba(163, 52, 250), rgba(0 106 255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;    
+    border-radius: 24px;
+    padding: 25%;
+    box-shadow: 5px 10px 18px #343333;
+}
+
+.fa-instagram {    
+    /* linear gradient for font awesome icon */   
+    background: -webkit-linear-gradient(#4f5bd5, #833ab4, #d62976,  #fa7e1e, #feda75);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    border-radius: 24px;
+    padding: 25%;   
+    box-shadow: 5px 10px 18px #343333;
+}
+
+li:hover {    
+    font-size: 21px;    
+}
+
+@media (max-width: 1028px) {
+    body {    
+        background: linear-gradient(to bottom, rgba(153, 186, 153, 0.9), rgba(153, 186, 153, 0.5)),
+        url("grass.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;  
+    }
+    
+    .container-fluid {
+        margin-top: 0;
+    } 
+
+    li {
+        font-size: 16px;             
+    }
+   
+  }
+
+
+
+
+
